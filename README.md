@@ -10,7 +10,7 @@ This is one of my beginner-friendly yet visually engaging projects! 💡
 
 Here's a quick preview of how the form looks 👇
 
-![Survey Form Screenshot](./surveyform.png)
+![Survey Form Screenshot](./surveyForm.png)
 
 A clean, minimal, and aesthetic form design with responsive elements and modern fonts. 💖🧠
 
