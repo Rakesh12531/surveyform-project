@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="box">
+        <div class="topic">
+            <h1 id="title">SURVEY FORM</h1>
+            <p id="description">Take your time to finish this Survey</p>
+        </div>
+        <form action="POST">
+            <div id="identity">
+                <label for="name">Name<input type="text" id="name" requiredd></label>
+                <label for="email">Email  <input type="email" id="email" required></label>
+            </div>
+            <div class="personal">
+                <fieldset>
+                    <legend>Gender</legend>
+                    <div class="gender">
+                        <label for="male"><input type="radio" id="male" name="gender">Male</label>
+                        <label for="female"><input type="radio" id="female" name="gender">Female</label>
+                    </div>
+                </fieldset>
+                    <fieldset>
+                        <legend>Age-Group</legend>
+                    <div class="age-grp">
+                        <label for="age1"><input type="radio" id="age1" name="age">18-25</label>
+                        <label for="age2"><input type="radio" id="age2" name="age">26-35</label>
+                        <label for="age3"><input type="radio" id="age3" name="age">36-45</label>
+                        <label for="age4"><input type="radio" id="age4" name="age">46-55</label>
+                        <label for="age5"><input type="radio" id="age5" name="age">56+</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="chkbox">
+                <span>Which of the following activities you enjoy?</span>
+                <label for="act1"><input type="checkbox" id="act1" value="1">Readings</label>
+                <label for="act2"><input type="checkbox" id="act2" value="2">Sports</label>
+                <label for="act3"><input type="checkbox" id="act3" value="3">Music</label>
+                <label for="act4"><input type="checkbox" id="act4" value="4">Cooking</label>
+                <label for="act5"><input type="checkbox" id="act5" value="5">Travelling</label>
+                <label for="act6"><input type="checkbox" id="act6" value="6">Gaming</label>
+                <label for="act7"><input type="checkbox" id="act7" value="7">Art</label>
+                <label for="act8"><input type="checkbox" id="act8" value="8">Photography</label>
+                <label for="act9"><input type="checkbox" id="act9" value="9">Dancing</label>
+            </div>
+            <div class="drop-down">
+                <label for="color">Favourite color<input type="color" id="color"></label>
+                <label for="education">Highest Education Level</label>
+                <select id="education">
+                    <option value="">Select One</option>
+                    <option value="1">High School</option>
+                    <option value="2">Bachelor's Degree</option>
+                    <option value="3">Master's Degree</option>
+                    <option value="4">PhD</option>
+                </select>
+                <label for="recommend">How likely are you to recommend our product serice to others?</label>
+                <select id="recommend">
+                    <option value="1">Very Likely</option>
+                    <option value="2">Likely</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Unlikely</option>
+                    <option value="5">Very Unlikely</option>
+                </select>
+            <label for="purchase">How often do you purchase our product service?</label>
+            <select id="purchase">
+                <option value="1">Daily</option>
+                <option value="2">Weekly</option>
+                <option value="3">Monthly</option>
+                <option value="4">Rarely</option>
+                <option value="5">Never</option>
+            </select>
+            <label for="satisfaction">How satisfied are you with our product service?</label>
+            <select id="satisfaction">
+                <option value="1">Very Satisfied</option>
+                <option value="2">Satisfied</option>
+                <option value="3">Neutral</option>
+                <option value="4">Dissatisfied</option>
+                <option value="5">Very Dissatisfied</option>
+            </select>
+            </div>
+            <div class="submit">
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+body{
+    background-image:url(https://blogger.googleusercontent.com/img/a/AVvXsEi8bUdh_QuEV3gd_nomQ2Z7fYH8jeklX0cR8UYmRnZtsSrcfZHXwrE66ekzlrPlPOhjL2wbOWatNNi7XL0HW0HAtfalqQleST9thJSM6EpPecmXZpC1-FpuFqQubO73lZKhpRcyj2i7My6t6goQ6D6DZLW4OzhDBPzy2TNuvuMfk3G-mvpnCPVlBUxbM5GX=w1600);
+    background-size:cover;
+    font-size:18px;
+    font-family: "Poppins", sans-serif;
+}
+
+.box{
+    height:1850px;
+    width:800px;
+    margin:50px auto;
+    padding:30px;
+    border-radius:30px;
+    background-color:rgb(175, 71, 210,0.3);
+    color:white;
+    box-shadow:5px 5px 5ch 0px white;
+}
+
+label{
+    display:block;
+    margin:25px;
+}
+
+#title{
+    border:2px solid white;
+    border-radius:20px;
+}
+
+#title:hover{
+    background-color:white;
+    color:black;
+
+}
+
+#description,#title{
+    text-align:center;
+}
+
+input[type="text"],input[type="email"]{
+    width:80%;
+    display:inline;
+    margin:auto 30px;
+}
+
+input,select{
+    cursor:pointer;
+    margin:auto 20px;
+    font-size:20px;
+}
+
+label:hover{
+    font-weight:bold;
+    color:rgb(248, 64, 95);
+}
+
+label:active{
+    font-weight:bold;
+    color:black;
+}
+
+legend{
+    font-weight:bold;
+}
+
+select{
+    background-color:blueviolet;
+    color:white;
+}
+
+input[type="submit"]{
+    background-color:rgb(175, 71, 210,0.2);
+    width:93%;
+    color:white;
+    border:1px solid white;
+    box-shadow:none;
+    padding:10px;
+    margin:30px;
+    display:inline;
+    border-radius:20px;
+}
+
+input[type="submit"]:hover{
+    color:black;
+    font-weight:bold;
+    background-color:white;
+    box-shadow:1px 1px 1ch 0px white;
+    border-radius:20px;
+}
+
+legend:hover{
+    font-size:25px;
+}
+
+span:hover{
+    font-size:25px;
+}
+
+select:hover{
+    border:1px solid white;
+    box-shadow:1px 1px 5px 2px white;
+}
+
+input[type="radio"],input[type="checkbox"]{
+    transform:scale(2.0);
+}
+
+input[type="radio"]:hover,input[type="checkbox"]:hover,input[type="text"]:hover,input[type="email"]:hover{
+    box-shadow:0px 0px 5px 2px white;
+    border:0;
+}
