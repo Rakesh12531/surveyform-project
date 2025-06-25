@@ -20,7 +20,7 @@ A clean, minimal, and aesthetic form design with responsive elements and modern 
 
 Check out the live walkthrough of this project on YouTube! 🍿
 
-[![Survey Form YouTube Preview](https://youtu.be/Ym0zOG2t7K0)
+[![Survey Form YouTube Preview](https://img.youtube.com/vi/Ym0zOG2t7K0/0.jpg)](https://youtu.be/Ym0zOG2t7K0)
 
 
 ## 🎯 Live Demo
